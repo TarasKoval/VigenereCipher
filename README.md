@@ -28,54 +28,6 @@ First - uses the index of coincidence to calculate the key length.
 
 Second - uses frequency analysis to calculate symbols of the key.
 
-## Installing
-
-### First step:
-
-In bash:
-
-```
-    cmake CMakeLists.txt
-```
-
-Output (approximately):
-
-```
--- The C compiler identification is GNU 5.4.0
--- The CXX compiler identification is GNU 5.4.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: pathToFolder
-```
-
-### Second step:
-
-```
-    make
-```
-
-Output (approximately):
-
-```
-[ 33%] Building CXX object CMakeFiles/Vigenere.dir/src/main.cpp.o
-[ 66%] Building CXX object CMakeFiles/Vigenere.dir/src/functions.cpp.o
-[100%] Linking CXX executable build/Vigenere
-[100%] Built target Vigenere
-```
-Executable will be placed in build folder.
-
 ## How to work with the program
 
 Put enciphered text in resources/encipheredText.txt
