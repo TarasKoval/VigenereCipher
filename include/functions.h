@@ -1,5 +1,5 @@
-#ifndef CHARACTERPROCESSING_FUNCTIONS_H
-#define CHARACTERPROCESSING_FUNCTIONS_H
+#ifndef CHARACTER_PROCESSING_FUNCTIONS_H
+#define CHARACTER_PROCESSING_FUNCTIONS_H
 
 #include <iostream>
 #include <fstream>
@@ -53,4 +53,4 @@ void outputVector(const std::vector<T> &data) {
     std::cout << std::endl;
 }
 
-#endif //CHARACTERPROCESSING_FUNCTIONS_H
+#endif //CHARACTER_PROCESSING_FUNCTIONS_H
