@@ -1,4 +1,4 @@
-#include "../include/functions.h"
+#include "functions.h"
 
 void readAbc(std::map<std::string, int> &renamingMap, const std::string &path) {
 
